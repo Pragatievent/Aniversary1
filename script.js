@@ -3,7 +3,7 @@ const correctPassword = "Kanarth"; // Password configured for Kanak
 const steps = [
     { title: "It's Our Special Day🥹💗✨", desc: "I've created a little gift for youh🥹🫶🏻", btn: "NEXT" },
     { title: "Have a look at it Madam ji", desc: "Here we goo..... 🥹", btn: "LET'S GO" },
-    { title: "Ready for your surprise?", desc: "But first Do you love me☺️... (You have no option other than yes🥰)", btn: "Yess!!!" },
+    { title: "Ready for your surprise?", desc: "But first, Do you love me???☺️... (You have no option other than yes🥰)", btn: "Yess!!!" },
     { title: "Yesssss jaanuuuu🫶🏻☺️.... I love uhhhhh tooo🤭", desc: "Ab lights On kro☺️", btn: "TURN ON LIGHTS" },
     { title: "Khali khali lg rha he n.... Music kesa rahega☺️", desc: "Chalo.... Ab apne cute cute hatho se... Vibe bhi on kr do🤭", btn: "PLAY MUSIC" },
     { title: "Hurryyyyy!!!!😭 u did... Awwww itne chotu se cute cute hatho se.... Ahhhhhhhhhh I'm obsessed yll😭💗! Still khali khali nhi he..?", desc: "What about ballons👀..", btn: "FLY BALLOONS" },
