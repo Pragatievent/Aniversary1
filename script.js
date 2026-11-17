@@ -34,7 +34,7 @@ function nextStep() {
         audio.play().catch(e => console.log("Audio autoplay restricted by browser"));
     } else if (currentBtnText === "FLY BALLOONS") {
         startBalloonEffect();
-    } else if (currentBtnText === "SHOW THE MESSAGE") {
+    } else if (currentBtnText === "Letss Go!!!") {
         document.body.classList.add('curtains-open');
         document.getElementById('main-container').style.display = 'none';
         document.getElementById('special-message-section').style.display = 'flex';
