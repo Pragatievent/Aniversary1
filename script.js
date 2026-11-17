@@ -113,12 +113,13 @@ function closeGiftModal() {
 
 function startBalloonEffect() {
     const colorPairs = [
-        { light: '#ff6699', dark: '#cc0044' },
-        { light: '#ffcc00', dark: '#cc9900' },
-        { light: '#33ccff', dark: '#0066cc' },
-        { light: '#ff66b2', dark: '#99004d' },
-        { light: '#bf80ff', dark: '#6600cc' },
-        { light: '#33cc66', dark: '#006622' }
+        { light: '#ffffff', dark: '#dcdcdc' }, // White
+        { light: '#ffc0cb', dark: '#ff99aa' }, // Light Pink
+        { light: '#ff85a2', dark: '#ff4d79' }, // Soft Pink Shade
+        { light: '#ff69b4', dark: '#ff1493' }, // Pink (Hot Pink)
+        { light: '#ff3385', dark: '#cc0052' }, // Deep Pink Shade
+        { light: '#ff1493', dark: '#c71585' }, // Dark Pink
+        { light: '#ffb3d9', dark: '#ff66b2' }  // Pastel Pink Shade
     ];
 
     balloonInterval = setInterval(() => {
@@ -126,8 +127,19 @@ function startBalloonEffect() {
         balloon.className = 'balloon';
         
         const pair = colorPairs[Math.floor(Math.random() * colorPairs.length)];
-        balloon.style.setProperty('--b-light', pair.light);
-        balloon.style.setProperty('--b-dark', pair.dark);
+        
+        const heart = document.createElement('div');
+        heart.className = 'heart-shape';
+        heart.style.setProperty('--b-light', pair.light);
+        heart.style.setProperty('--b-dark', pair.dark);
+        
+        const string = document.createElement('div');
+        string.className = 'balloon-string';
+        string.style.setProperty('--b-dark', pair.dark);
+        
+        balloon.appendChild(heart);
+        balloon.appendChild(string);
+        
         balloon.style.left = Math.random() * (window.innerWidth - 40) + 'px';
         
         document.body.appendChild(balloon);
