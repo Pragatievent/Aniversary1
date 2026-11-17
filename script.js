@@ -1,13 +1,13 @@
 const correctPassword = "Kanarth"; // Password configured for Kanak
 
 const steps = [
-    { title: "It's Your Special Day", desc: "A CINEMATIC JOURNEY CREATED JUST FOR YOU", btn: "NEXT" },
-    { title: "Have a look at it Madam ji", desc: "A special moment awaits...", btn: "LET'S GO" },
-    { title: "Ready for your surprise?", desc: "Let's set things up", btn: "LET'S GO" },
-    { title: "The Stage is Set...", desc: "Turn on the lights", btn: "TURN ON LIGHTS" },
-    { title: "Music makes it better...", desc: "Set the vibe", btn: "PLAY MUSIC" },
-    { title: "Let the colors fly!", desc: "Balloons incoming...", btn: "FLY BALLOONS" },
-    { title: "Almost there...", desc: "Ready for the grand reveal?", btn: "SHOW THE MESSAGE" }
+    { title: "It's Our Special Day🥹💗✨", desc: "I've created a little gift for youh🥹🫶🏻", btn: "NEXT" },
+    { title: "Have a look at it Madam ji", desc: "Here we goo..... 🥹", btn: "LET'S GO" },
+    { title: "Ready for your surprise?", desc: "But first Do you love me☺️... (You have no option other than yes🥰)", btn: "Yess!!!" },
+    { title: "Yesssss jaanuuuu🫶🏻☺️.... I love uhhhhh tooo🤭", desc: "Ab lights On kro☺️", btn: "TURN ON LIGHTS" },
+    { title: "Khali khali lg rha he n.... Music kesa rahega☺️", desc: "Chalo.... Ab apne cute cute hatho se... Vibe bhi on kr do🤭", btn: "PLAY MUSIC" },
+    { title: "Hurryyyyy!!!!😭 u did... Awwww itne chotu se cute cute hatho se.... Ahhhhhhhhhh I'm obsessed yll😭💗! Still khali khali nhi he..?", desc: "What about ballons👀..", btn: "FLY BALLOONS" },
+    { title: "Okhayyyyyy😭... You did😋...", desc: "Bhot wait kiya... Lessssss gooo!!!!!!!", btn: "Letss Go!!!" }
 ];
 
 let currentStep = 0;
