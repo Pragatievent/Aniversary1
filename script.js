@@ -1,4 +1,4 @@
-const correctPassword = "Kanarth"; // Password configured for Kanak
+const correctPassword = "Kanarth";
 
 const steps = [
     { title: "It's Our Special Day🥹💗✨", desc: "I've created a little gift for youh🥹🫶🏻", btn: "NEXT" },
@@ -52,7 +52,6 @@ function nextStep() {
     }
 }
 
-/* Page Navigation & Reveal Functions */
 function showMemoriesTab() {
     document.getElementById('special-message-section').style.display = 'none';
     document.getElementById('memory-page-0').style.display = 'flex';
@@ -87,7 +86,6 @@ function restartExperience() {
     location.reload();
 }
 
-/* Zoom Modal Functions */
 function openModal(imageSrc, descriptionText) {
     const modal = document.getElementById('image-modal');
     const modalImg = document.getElementById('modal-img');
@@ -103,7 +101,6 @@ function closeModal() {
     modal.style.display = 'none';
 }
 
-/* Gift Box Modal Functions */
 function openGiftModal() {
     const modal = document.getElementById('gift-modal');
     modal.style.display = 'flex';
