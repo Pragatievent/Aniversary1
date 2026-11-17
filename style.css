@@ -183,7 +183,7 @@ body.lights-on .fairy-lights span:nth-child(3n) {
     word-break: break-word;
 }
 
-#action-btn {
+#action-btn, #step-btn {
     background: #ff3366;
     color: white;
     border: none;
@@ -194,7 +194,7 @@ body.lights-on .fairy-lights span:nth-child(3n) {
     transition: background 0.3s ease;
 }
 
-#action-btn:hover {
+#action-btn:hover, #step-btn:hover {
     background: #e60039;
 }
 
