@@ -25,7 +25,7 @@ function checkPassword() {
 }
 
 function nextStep() {
-    const currentBtnText = document.getElementById('action-btn').innerText;
+    const currentBtnText = document.getElementById('step-btn').innerText;
 
     if (currentBtnText === "TURN ON LIGHTS") {
         document.body.classList.add('lights-on');
@@ -48,7 +48,7 @@ function nextStep() {
     if (currentStep < steps.length) {
         document.getElementById('card-title').innerText = steps[currentStep].title;
         document.getElementById('card-desc').innerText = steps[currentStep].desc;
-        document.getElementById('action-btn').innerText = steps[currentStep].btn;
+        document.getElementById('step-btn').innerText = steps[currentStep].btn;
     }
 }
 
